@@ -1,0 +1,144 @@
+¡Claro! Un código de "adorno" o efecto visual para una página web en JavaScript suele referirse a animaciones o interacciones dinámicas.
+
+Te propongo un código muy popular y visualmente atractivo: un efecto de partículas de fondo animadas.
+
+Este código utiliza JavaScript para crear elementos <div> que se mueven y cambian de tamaño de forma aleatoria en el fondo de la página, dando una sensación de "nieve" o "burbujas" sutil.
+
+🌟 Código de Adorno: Partículas Flotantes
+Necesitas tres partes: HTML, CSS y JavaScript.
+
+1. HTML (index.html)
+Asegúrate de tener un contenedor para las partículas y enlaza tu archivo CSS y JavaScript.
+
+HTML
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efecto de Partículas</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <div id="particles-container"></div>
+
+    <div class="content">
+        <h1>¡Mi Página con Adorno!</h1>
+        <p>Las partículas están animándose en el fondo.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+2. CSS (styles.css)
+Este código es crucial para posicionar las partículas y hacer que el contenido se vea por encima de ellas.
+
+CSS
+
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    overflow: hidden; /* Oculta cualquier barra de desplazamiento que se pueda crear */
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #111; /* Fondo oscuro para que las partículas resalten */
+}
+
+/* El contenedor de las partículas debe ocupar toda la pantalla */
+#particles-container {
+    position: fixed; /* Fijo en la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Permite hacer clic a través de ellas en el contenido */
+    z-index: 1; /* Fondo */
+}
+
+/* Estilo de la partícula individual */
+.particle {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6); /* Color blanco semi-transparente */
+    border-radius: 50%; /* Para que sea redonda */
+    animation: move-particle linear infinite; /* Aplica la animación */
+}
+
+/* La animación que hace que la partícula se mueva y rote */
+@keyframes move-particle {
+    0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
+    100% { transform: translate(var(--end-x), var(--end-y)) rotate(360deg); opacity: 0; } /* Se mueve y se desvanece */
+}
+
+/* Estilos para el contenido, para que se vea por encima del fondo */
+.content {
+    position: relative;
+    z-index: 10; /* Primer plano */
+    text-align: center;
+    padding-top: 20vh;
+}
+3. JavaScript (script.js)
+Este es el código que crea, anima y gestiona las partículas.
+
+JavaScript
+
+document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('particles-container');
+    const numberOfParticles = 40; // Número de partículas a generar
+
+    for (let i = 0; i < numberOfParticles; i++) {
+        createParticle();
+    }
+
+    /**
+     * Crea un elemento de partícula (div) con propiedades aleatorias
+     * y lo añade al contenedor.
+     */
+    function createParticle() {
+        const particle = document.createElement('div');
+        particle.classList.add('particle');
+        
+        // 1. Tamaño y Posición Inicial (Aleatorio)
+        const size = Math.random() * 8 + 3; // Tamaño entre 3px y 11px
+        const x = Math.random() * 100; // Posición X inicial (0% a 100% del ancho)
+        const y = Math.random() * 100; // Posición Y inicial (0% a 100% del alto)
+        
+        particle.style.width = `${size}px`;
+        particle.style.height = `${size}px`;
+        particle.style.left = `${x}vw`; // 'vw' es porcentaje del ancho de la vista
+        particle.style.top = `${y}vh`; // 'vh' es porcentaje del alto de la vista
+        
+        // 2. Duración y Retraso de la Animación (Aleatorio)
+        const duration = Math.random() * 10 + 5; // Duración entre 5s y 15s
+        const delay = Math.random() * 5; // Retraso de hasta 5s (para que no empiecen todas a la vez)
+        
+        particle.style.animationDuration = `${duration}s`;
+        particle.style.animationDelay = `${delay}s`;
+        
+        // 3. Destino de la Animación (CSS Variables)
+        // Se moverá un poco en X y mucho en Y (efecto flotante)
+        const endX = (Math.random() - 0.5) * 50; // Movimiento horizontal: -25px a 25px
+        const endY = 100; // Movimiento vertical: 100px hacia abajo
+        
+        particle.style.setProperty('--end-x', `${endX}px`);
+        particle.style.setProperty('--end-y', `${endY}vh`); // Vh para que se mueva fuera de la pantalla
+        
+        container.appendChild(particle);
+
+        // Opcional: Recrear la partícula cuando su animación termina para un bucle infinito
+        particle.addEventListener('animationiteration', () => {
+             // Simplemente reseteamos su posición y propiedades (opcional)
+             container.removeChild(particle);
+             createParticle();
+        });
+        
+        // El bucle infinito ya se maneja con animation: move-particle linear infinite;
+        // Sin embargo, para que el efecto sea más aleatorio y la partícula "muera" al salir,
+        // es mejor usar el evento 'animationend' y recrearla.
+        particle.addEventListener('animationend', () => {
+            container.removeChild(particle);
+            createParticle(); // Vuelve a crear una nueva partícula
+        });
+    }
+});
