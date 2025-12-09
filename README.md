@@ -21,7 +21,7 @@
 
 
 ## 📚 Índice
-- [Instalación](#instalación)
+- [Instalación](#Git init)
 - [Uso](#uso)
 - [Características](#características)
 - [Licencia](#licencia)
