@@ -17,3 +17,15 @@
 
 
 **
+
+
+
+
+
+
+
+## 📚 Índice
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Características](#características)
+- [Licencia](#licencia)
