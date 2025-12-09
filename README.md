@@ -1,7 +1,10 @@
 
+![Smasing Bits](/home/alexxeym/Escritorio/linux.png)
+
+
 ### Sussexw Alexeey Mendoza Fernandez 
 
-
+### Proyecto: Administracion de una bisutería 
 
   
  # Este es un repositoro de  mi  " Landin Page proesional "
