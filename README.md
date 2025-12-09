@@ -39,12 +39,21 @@
 - git add . ( Para agregar todo el contenido a contenedr de versiones ) 
 - git push -u origin main
 
-
+------------------------------------------------------------------------------------------------------
 
   ## ** Instrucciones **
 
+
+
  PASO 1 Clonar el repositorio de Github con el comanod " git clone https://github.com/Smashingsys/Tics.git " 
 
-------------------------------------------------------------------------------------------------------
+
 
  PASO 2 Una vez clonado, busca el archivo "index.html" haz doble click y te abrira la landing page en el navegador web 
+
+
+
+ PASO 3 Puedes abrir la carpeta y si deseas realizar una modificación del codigo, puedes hacerlo desde visual studio code
+
+
+ PASO 4 Una vez realizada una modificacion sigue las instrucciones de los comandos para subirl a tu propi repositorio de GitHub y no perder tu trabajo 
