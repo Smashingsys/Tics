@@ -1,5 +1,5 @@
   
- # Este es un repositoro de  mi  " landin page proesional "
+ # Este es un repositoro de  mi  " Landin Page proesional "
 
 
 
