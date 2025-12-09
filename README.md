@@ -1,11 +1,9 @@
 
-![Landing Page](./linux.png)
 
-![Smashng BIts](https://github.com/user-attachments/assets/3cff1753-eb6a-41ba-b496-6126a83acea2)
+![Smashng BIts]((https://www.freepik.es/fotos-vectores-gratis/linux-penguin))
 
-![linux](https://github.com/user-attachments/assets/4db23e11-5767-4989-bf88-1b94d54e7cc6)
 
-### Sussexw Alexeey Mendoza Fernandez 
+### Sussexw Alexxey Mendoza Fernandez 
 
 ### Proyecto: Administracion de una bisutería 
 
