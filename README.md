@@ -1,5 +1,5 @@
 
-![Smasing Bits](/home/alexxeym/Escritorio/linux.png)
+![Smasing Bits](.//home/alexxeym/Escritorio/linux.png)
 
 
 ### Sussexw Alexeey Mendoza Fernandez 
