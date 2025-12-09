@@ -43,4 +43,8 @@
 
   ## ** Instrucciones **
 
-  Clonar el repositorio de Github con el comanod " git clone 
+ PASO 1 Clonar el repositorio de Github con el comanod " git clone https://github.com/Smashingsys/Tics.git " 
+
+------------------------------------------------------------------------------------------------------
+
+ PASO 2 Una vez clonado, busca el archivo "index.html" haz doble click y te abrira la landing page en el navegador web 
