@@ -1,6 +1,6 @@
 
-[Smasing Bits](.//home/alexxeym/Escritorio/linux.png)
-![linux](https://github.com/user-attachments/assets/3cff1753-eb6a-41ba-b496-6126a83acea2)
+
+![Smashng BIts](https://github.com/user-attachments/assets/3cff1753-eb6a-41ba-b496-6126a83acea2)
 
 
 ### Sussexw Alexeey Mendoza Fernandez 
