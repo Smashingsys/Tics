@@ -9,7 +9,7 @@
 ### Proyecto: Administracion de una bisutería 
 
   
- # Este es un repositoro de  mi  " Landin Page proesional "
+ # Este es un repositoro de  mi  " Landin Page Profesional "
 
 
 
