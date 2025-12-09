@@ -20,8 +20,8 @@
 
 
 
-## 📚 Índice
-- [Git-Init](#Git-Init)
-- [Uso](#uso)
+##  Comandos mas importantes qe utilice
+- [git-init(#git-init)
+- [git](#)
 - [Características](#características)
 - [Licencia](#licencia)
