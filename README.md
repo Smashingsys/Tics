@@ -1,6 +1,7 @@
 
+![linux](https://github.com/user-attachments/assets/33927a34-aba0-4823-9892-4fbb6f0d126f)
 
-![Smashng BIts](https://www.freepik.es/fotos-vectores-gratis/linux-penguin)
+
 
 
 ### Sussexw Alexxey Mendoza Fernandez 
