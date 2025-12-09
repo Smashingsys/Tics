@@ -21,7 +21,8 @@
 
 
 ##  Comandos mas importantes qe utilice
-- [git-init(#git-init)
+
+- [git init](#git-init)
 - [git](#)
 - [Características](#características)
 - [Licencia](#licencia)
