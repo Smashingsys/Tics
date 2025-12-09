@@ -1,3 +1,8 @@
+
+### Sussexw Alexeey Mendoza Fernandez 
+
+
+
   
  # Este es un repositoro de  mi  " Landin Page proesional "
 
@@ -20,11 +25,11 @@
 
 
 
-##  Comandos mas importantes qe utilice
+##  Comandos mas importantes que utilicé
 
 - git init  ( sirve para iniciar el repositori de git dentro de la carpeta )
 - git branch ( Para comprobar las ramas existentes
 - git commit -m  ( Para crear agregar un comentario al archivo )
 - git log ( Para ver las modificaciones que le han  realizado al documento o carpeta)
-- 
+- git add . ( Para agregar todo el contenido a contenedr de versiones ) 
 - 
