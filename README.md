@@ -22,7 +22,9 @@
 
 ##  Comandos mas importantes qe utilice
 
-- git init
-- [git](#)
-- [Características](#características)
-- [Licencia](#licencia)
+- git init  ( sirve para iniciar el repositori de git dentro de la carpeta )
+- git branch ( Para comprobar las ramas existentes
+- git commit -m  ( Para crear agregar un comentario al archivo )
+- git log ( Para ver las modificaciones que le han  realizado al documento o carpeta)
+- 
+- 
