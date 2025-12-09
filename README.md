@@ -1,4 +1,5 @@
 
+![Landing Page](./img/preview.png)
 
 ![Smashng BIts](https://github.com/user-attachments/assets/3cff1753-eb6a-41ba-b496-6126a83acea2)
 
