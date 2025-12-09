@@ -37,4 +37,10 @@
 - git commit -m  ( Para crear agregar un comentario al archivo )
 - git log ( Para ver las modificaciones que le han  realizado al documento o carpeta)
 - git add . ( Para agregar todo el contenido a contenedr de versiones ) 
-- git push -u origin main 
+- git push -u origin main
+
+
+
+  ## ** Instrucciones **
+
+  Clonar el repositorio de Github con el comanod " git clone 
